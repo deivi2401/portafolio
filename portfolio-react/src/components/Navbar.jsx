@@ -3,9 +3,7 @@ import {
   FaBars,
   FaTimes,
   FaGithub,
-  FaLinkedin,
-  FaFacebook,
-  FaMailBulk,
+  FaLinkedin
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -19,7 +17,7 @@ export const Navbar = () => {
   return (
     <div
       className="fixed w-full h-[80px] flex justify-between items-center
-     px-4 bg-[#0a192f] text-gray-300"
+     px-4 text-gray-300"
     >
       <div className="w-12">
         <Logo
@@ -98,44 +96,6 @@ export const Navbar = () => {
           </Link>
         </li>
       </ul>
-      {/* Social icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-        <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.linkedin.com/in/david-lopez-89a777207/"
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#171515]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="https://github.com/deivi2401"
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-teal-500">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href=""
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-700">
-            {/*Todo: Investigar como agregar cv en pdf*/}
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href=""
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
     </div>
   );
 };
