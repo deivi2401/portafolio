@@ -26,10 +26,10 @@ export const About = () => {
           <div>
             <Reveal>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Eveniet beatae facere adipisci reiciendis nobis temporibus
-                numquam quae voluptate nesciunt molestias quas dolore quibusdam
-                voluptas, eum veritatis saepe, distinctio ullam laboriosam!
+                I'm passionate about making all kinds of web applications, and
+                I'm fascinated by anything related to technology and programming
+                and eager to learn whatever I can, and hopefully this portfolio
+                reflects that. Thanks for passing by regardless!
               </p>
             </Reveal>
           </div>
